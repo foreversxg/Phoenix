@@ -1,17 +1,27 @@
+.factorypath
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
-
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+null/
+classes/
+lib/
+logs/
+javadoc/
+javadocs/
 .classpath
+.idea/*
+*.log
+*/bin
+*/test-output
+*.class
+*/.project
+*.project
+*.settings
+*.settings/*
+*.iml
+.DS_Store
+*/.DS_Store
+*/.idea/*
+*/test-output/
+test-output/
+bin/
+*result*.txt
+*.versionsBackup
