@@ -1,5 +1,8 @@
 package com.sxg;
 
+import com.sxg.base.List;
+
+@List
 public class Test021 {
 
 

@@ -14,9 +14,10 @@ public class Test026 {
                 right++;
             } else {
                 left++;
+                // 让left维护一个不重复的数组长度
+                nums[left] = nums[right];
                 right++;
-                // 让secondIndex维护一个不重复的数组长度
-                nums[left] = nums[right - 1];
+
             }
         }
         return left + 1;

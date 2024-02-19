@@ -1,8 +1,11 @@
 package com.sxg;
 
+import com.sxg.base.Array;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Array
 public class Test001 {
 
 

@@ -9,6 +9,12 @@ public class Test013 {
     }
 
 
+    /**
+     * 核心规则：以preNum作为累加的标的，preNum<num 则取 -preNum ，如果preNum >= num 则取 +preNum
+     *
+     * @param s
+     * @return
+     */
     public static int romanToInt(String s) {
         int preNum = getValue(s.charAt(0));
         int sum = 0;
@@ -16,6 +22,7 @@ public class Test013 {
             int num = getValue(s.charAt(i));
             if (preNum < num) {
                 // 核心就是以preNum作为累加的标的。
+                // XVII  这个case最后两位 preNum == num ，所以相等的时候应该求和
                 sum = sum - preNum;
             } else {
                 sum = sum + preNum;
