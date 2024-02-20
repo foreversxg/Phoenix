@@ -1,5 +1,8 @@
 package com.sxg;
 
+import com.sxg.base.TowPoint;
+
+@TowPoint
 public class Test026 {
 
     public static void main(String[] args) {
