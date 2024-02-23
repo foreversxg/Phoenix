@@ -1,9 +1,7 @@
 package com.sxg;
 
 import com.sxg.base.Dichotomy;
-import com.sxg.base.Unfinish;
 
-@Unfinish
 @Dichotomy
 public class Test035 {
 

@@ -1,8 +1,5 @@
 package com.sxg;
 
-import com.sxg.base.Unfinish;
-
-@Unfinish
 public class Test002 {
 
 

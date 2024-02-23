@@ -1,9 +1,7 @@
 package com.sxg;
 
 import com.sxg.base.TowPoint;
-import com.sxg.base.Unfinish;
 
-@Unfinish
 @TowPoint
 public class Test027 {
 
